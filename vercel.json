@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/:path*",
-      "destination": "https://cc.myabnabat.sbs:8443/:path*"
+      "destination": "https://cc.myabnabat.sbs:443/:path*"
     }
   ]
 }
