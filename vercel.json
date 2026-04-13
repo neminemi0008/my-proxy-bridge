@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "https://cc.myabnabat.sbs:8443/$1"
+    }
+  ]
+}
