@@ -1,13 +1,8 @@
 {
-  "version": 2,
   "rewrites": [
     {
-      "source": "/(.*)",
-      "destination": "https://cc.myabnabat.sbs:8443/$1"
-    },
-    {
-      "source": "/",
-      "destination": "https://cc.myabnabat.sbs:8443/"
+      "source": "/:path*",
+      "destination": "https://cc.myabnabat.sbs:8443/:path*"
     }
   ]
 }
